@@ -1,0 +1,29 @@
+2020-09-26 20:43:08,041 INFO o.s.b.StartupInfoLogger [main] Starting SareetaApplicationTests on Apolinars-MacBook-Pro.local with PID 75894 (started by apolinarsanchez in /Users/apolinarsanchez/Desktop/udacity/P04-eCommerce Application/starter_code)
+2020-09-26 20:43:08,048 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-26 20:43:08,496 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-26 20:43:08,553 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49ms. Found 4 repository interfaces.
+2020-09-26 20:43:08,960 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c294544] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-26 20:43:09,125 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-26 20:43:09,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-26 20:43:09,329 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-26 20:43:09,390 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2020-09-26 20:43:09,391 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2020-09-26 20:43:09,528 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-09-26 20:43:09,659 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-26 20:43:10,233 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-26 20:43:10,785 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-26 20:43:10,862 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16cbba0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@345540f9, org.springframework.security.web.header.HeaderWriterFilter@3d12f065, org.springframework.web.filter.CorsFilter@28d16af8, org.springframework.security.web.authentication.logout.LogoutFilter@6be2b567, com.example.demo.security.JWTAuthenticationFilter@58932d08, com.example.demo.security.JWTAuthenticationVerificationFilter@45648e75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@107ebdad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70ad0854, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e344f14, org.springframework.security.web.session.SessionManagementFilter@33a7331, org.springframework.security.web.access.ExceptionTranslationFilter@6aa792, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17ea3bc0]
+2020-09-26 20:43:11,194 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-26 20:43:11,410 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-26 20:43:11,410 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2020-09-26 20:43:11,419 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 9 ms
+2020-09-26 20:43:11,435 INFO o.s.b.StartupInfoLogger [main] Started SareetaApplicationTests in 3.718 seconds (JVM running for 4.577)
+2020-09-26 20:43:11,551 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-09-26 20:43:11,836 INFO c.e.d.c.UserController [main] user "test" created successfully
+2020-09-26 20:43:12,589 INFO c.e.d.c.OrderController [main] order for test submitted successfully
+2020-09-26 20:43:12,925 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-26 20:43:12,926 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-26 20:43:12,928 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-09-26 20:43:12,930 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
